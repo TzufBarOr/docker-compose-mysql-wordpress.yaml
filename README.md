@@ -1,6 +1,6 @@
 # docker-compose-mysql-wordpress.yaml
 
-## Docker creates a network called 'wordpress' and runs MYSQL and WordPress containers under this network
+## Docker creates a network called 'wordpress' and runs MYSQL and WordPress containers under this network.
 
 
 1) docker container run --name mysql-container --rm --network wordpress -e MYSQL_ROOT_PASSWORD=wordpress -d mysql:5.7
